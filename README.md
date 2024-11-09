@@ -11,8 +11,9 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 - **Sistema de Pontos e Recompensas:** Incentivos como certificados digitais e atualizações dos impactos gerados.
 - **Impacto Sustentável:** Cada doação contribui para a redução de CO₂, economia de energia e benefícios sociais em áreas carentes e no espaço público.
 
-> [!IMPORTANT]
-> [**Video Pitch**](https://www.youtube.com/watch?v=_0Pf48RqSsg)
+> [!IMPORTANT] 
+> [**Video Pitch**](https://www.youtube.com/watch?v=_0Pf48RqSsg) 
+> [**Video do Código**](https://www.youtube.com/watch?v=_0Pf48RqSsg)
 
 ## ✒️Desenvolvedores
 
