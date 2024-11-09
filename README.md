@@ -1,20 +1,20 @@
-# <center><font color="#00d771">🍃GreenFund</font></center>
+# 🍃GreenFund
 
-A <font color="#00d771">**GreenFound**</font> é uma iniciativa que conecta pessoas dispostas a contribuir com projetos sustentáveis, visando beneficiar tanto comunidades carentes quanto espaços públicos. A plataforma permite que indivíduos façam pequenas doações para financiar soluções de energia limpa, como a instalação de painéis solares em escolas, a modernização da iluminação pública com tecnologias eficientes e a implementação de sistemas de energia renovável em áreas com pouca infraestrutura.
+A **GreenFound** é uma iniciativa que conecta pessoas dispostas a contribuir com projetos sustentáveis, visando beneficiar tanto comunidades carentes quanto espaços públicos. A plataforma permite que indivíduos façam pequenas doações para financiar soluções de energia limpa, como a instalação de painéis solares em escolas, a modernização da iluminação pública com tecnologias eficientes e a implementação de sistemas de energia renovável em áreas com pouca infraestrutura.
 
 Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas também nas comunidades mais vulneráveis, melhorando a qualidade de vida e promovendo um futuro mais sustentável. A cada doação, os usuários podem acompanhar o progresso dos projetos, visualizar os resultados gerados e acumular pontos que podem ser trocados por recompensas simbólicas.
 
-### <font color="#81D4FA">**Principais funcionalidades:**</font>
+### **Principais funcionalidades:**
 
 - **Doações Simples:** Contribuições rápidas para apoiar projetos de energia renovável em comunidades carentes e espaços públicos.
 - **Acompanhamento de Metas:** Visualização do progresso e metas de cada projeto.
 - **Sistema de Pontos e Recompensas:** Incentivos como certificados digitais e atualizações dos impactos gerados.
 - **Impacto Sustentável:** Cada doação contribui para a redução de CO₂, economia de energia e benefícios sociais em áreas carentes e no espaço público.
 
-> [!IMPORTANT] <font color="#00d771">**Video Pitch**</font>
-> Confira o video do pitch [aqui](https://www.youtube.com/watch?v=_0Pf48RqSsg)
+> [!IMPORTANT]
+> [**Video Pitch**](https://www.youtube.com/watch?v=_0Pf48RqSsg)
 
-## <font color="#81D4FA">✒️Desenvolvedores</font>
+## ✒️Desenvolvedores
 
 - RM98163 - Júlia Martins Santana Figueiredo - 2TDSA
 - RM550562 - Larissa Akemi Iwamoto - 2TDSA
@@ -22,7 +22,7 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 - RM94679 - Vinicios Becker Prediger - 2TDSS
 - RM98570 - Gabriel Souza de Queiroz - 2TDSS
 
-# :bookmark: <font color="#81D4FA">Index</font>
+# :bookmark: Index
 
 - [Autenticação](#autenticação)
 - [Projetos](#projetos)
@@ -32,11 +32,11 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 ---
 
-# <center><font color="#52b788">Endpoints</font></center>
+# Endpoints
 
-## <font color="#81D4FA">**Autenticação**</font>
+## **Autenticação**
 
-### <font color="#00d771">**POST/api/auth/register**</font>
+### **POST/api/auth/register**
 
 - Descrição: Registra um novo usuário.
 - Dados:
@@ -67,7 +67,7 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 }
 ```
 
-### <font color="#00d771"> **POST/api/auth/login**</font>
+### **POST/api/auth/login**
 
 - Descrição: Registra um novo usuário.
 - Dados:
@@ -94,9 +94,9 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 ---
 
-## <font color="#81D4FA">**Projetos**</font>
+## **Projetos**
 
-### <font color="#00d771"> **GET/api/projetos**</font>
+### **GET/api/projetos**
 
 - Descrição: Lista todos os projetos ativos.
 - Retorno:
@@ -124,7 +124,7 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 }
 ```
 
-### <font color="#00d771"> **POST/api/projetos/doacao**</font>
+### **POST/api/projetos/doacao**
 
 - Descrição: Permite que o usuario doe para um projeto específico.
 - Retorno:
@@ -157,9 +157,9 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 ---
 
-## <font color="#81D4FA">**Sistema de Pontos e Recompensas**</font>
+## **Sistema de Pontos e Recompensas**
 
-### <font color="#00d771"> **GET/api/pontos**</font>
+### **GET/api/pontos**
 
 - Descrição: Retorna o saldo de pontos do usuário e histórico de pontos ganhos
 - Retorno:
@@ -191,7 +191,7 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 }
 ```
 
-### <font color="#00d771"> **GET/api/recompensas**</font>
+### **GET/api/recompensas**
 
 - Descrição: Retorna o saldo de pontos do usuário e histórico de pontos ganhos
 - Retorno:
@@ -217,7 +217,7 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 }
 ```
 
-### <font color="#00d771"> **GET/api/recompensas/resgatar**</font>
+### **GET/api/recompensas/resgatar**
 
 - Descrição: Permite que o usuário resgate recompensas
 
@@ -249,9 +249,9 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 ---
 
-## <font color="#81D4FA">**Perfil do Usuário**</font>
+## **Perfil do Usuário**
 
-### <font color="#00d771"> **GET/api/perfil**</font>
+### **GET/api/perfil**
 
 - Descrição: Retorna os dados do perfil do usuário
 - Retorno:
@@ -280,9 +280,9 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 
 ---
 
-## <font color="#81D4FA">**Relatórios e Impacto**</font>
+## **Relatórios e Impacto**
 
-### <font color="#00d771"> **GET/api/impacto**</font>
+### **GET/api/impacto**
 
 - Descrição: Retorna os dados agregados do impacto das doações.
 - Retorno:
@@ -305,6 +305,6 @@ Nosso objetivo é gerar um impacto positivo, não só no meio ambiente, mas tamb
 }
 ```
 
-## 💚<font color="#00d771">Expressões de Gratidão</font>
+## 💚Expressões de Gratidão
 
 Gostaríamos de expressar nossa sincera gratidão aos professores que contribuíram para o sucesso deste projeto. A dedicação de todos foi essencial para nosso aprendizado e crescimento. Agradecemos pelo apoio, orientação e esforço compartilhado, que foram fundamentais para superarmos desafios e alcançarmos nossos objetivos.
